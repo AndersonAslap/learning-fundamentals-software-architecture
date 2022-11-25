@@ -99,3 +99,21 @@ software é garantir que os atributos de qualidade, restrições de alto nível 
 - Acompanhar a evolução do negócio 
 - Quanto mais tempo o software ficar no ar, mais retorno gera 
 - A solução precisa ser arquitetada
+
+> Pilares da arquitetura de software
+
+- Estruturação
+    - Fácil evolução, componentização para atender os objetivos de negócio.
+- Componentização
+- Relacionamento entre sistemas
+- Governança
+
+> Requisitos arquiteturais (RAs)
+
+- Performance
+- Armazenamento de dados
+- Escalabilidade
+- Segurança
+- Legal
+- Audit
+- Marketing
