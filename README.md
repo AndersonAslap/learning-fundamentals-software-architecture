@@ -117,3 +117,19 @@ software é garantir que os atributos de qualidade, restrições de alto nível 
 - Legal
 - Audit
 - Marketing
+
+> Características arquiteturais
+
+- Operacionais
+- Estruturais
+- Cross-Cutting
+
+> Características Operacionais
+
+- Disponibilidade
+- Recuperação de desastres
+- Performance
+- Recuperação (backup)
+- Confiabilidade e segurança
+- Robustes
+- Escalabilidade
