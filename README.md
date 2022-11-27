@@ -133,3 +133,14 @@ software é garantir que os atributos de qualidade, restrições de alto nível 
 - Confiabilidade e segurança
 - Robustes
 - Escalabilidade
+
+> Características Estruturais
+
+- Configurável
+- Extensibilidade
+- Fácil instalação
+- Reuso de componentes
+- Internacionalização
+- Fácil manunteção
+- Portabilidade (diversos bancos de dados)
+- Fácil suporte (logs, debugging)
