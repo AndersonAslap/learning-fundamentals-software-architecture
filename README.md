@@ -144,3 +144,13 @@ software é garantir que os atributos de qualidade, restrições de alto nível 
 - Fácil manunteção
 - Portabilidade (diversos bancos de dados)
 - Fácil suporte (logs, debugging)
+
+> Características Cross-Cutting
+
+- Acessibilidade
+- Processo de rentenção e recuperação de dados (quanto tempo os dados serão mantidos)
+- Autenticação e Autorização
+- Legal
+- Privacidade 
+- Segurança
+- Usabilidade
