@@ -233,3 +233,74 @@ Paralelismo é fazer muitas coisas ao mesmo tempo.
 - Normalmente arquivos estáticos
 - CDN - Content Delivery Network
 - Cloudflare workers
+- Vercel
+- Akamai
+
+> Escalabilidade
+
+Escalabilidade é a capacidade de sistemas suportarem o aumento
+(ou a redução) dos workloads incrementando (ou reduzindo) o custo em
+menor ou igual proporção.
+
+> Escalabilidade vs Performance
+
+Enquanto performance tem o foco em reduzir a latência e aumentar o throughput,
+a escalabilidade visa termos a possibilidade de aumentar ou diminuir o throughput adicionando ou removendo a capacidade 
+computacional.
+
+
+> Escalando software
+
+- Escala Vertical
+    - Aumento de recursos computacionais
+        - Aumento de memória
+        - Aumento de CPU
+        - Aumento de disco
+        - Aumento de velocidade em disco
+        - etc...
+
+- Escala Horizontal
+    - Aumento de quantidade de máquinas rodando o projeto adicionando loadbalancer ou um proxi reverso para rotear as requisições para as máquinas.
+
+
+> Problemas da escala vertical
+
+- Chega um momento em que o hardware não suporta o poder computacional que o problema exige.
+- Se a máquina cair o sistema cai em 100%
+
+
+> Descentralização 
+
+- Para a escala horizintal funcionar
+    - Disco efêmero (Tudo que for salvo em disco na máquina possa ser apagado a hora que precisar)
+    - Servidor de aplicação vs Servidor de assets
+    - Cache centralizado
+    - Sessões centralizadas
+    - Upload / Gravação de Arquivos
+    - Tudo pode ser removido e criado facilmente
+
+> Escala de banco de dados
+
+- Aumentando recursos computacionais 
+- Distribuindo responsabilidades (escrita vs leitura)
+- Shards de forma horizontal
+- Serverless
+
+> Otimização de queries e Índices
+
+- Trabalhe com índices de forma consciente
+- APM (Application performance monitoring) nas queries
+- Explain na queries
+- CQRS (Command Query Responsability Segregation)
+
+> Proxy reverso
+
+Um proxy reverso é um servidor que fica na frente dos servidores web e 
+encaminha as solicitações do cliente (por exemplo, navegador web) para esses
+servidores web.
+
+> Soluções populares de Proxy Reverso
+
+- Nginx
+- HAProxy (HA= High Availability)
+- Traefik
